@@ -1,0 +1,38 @@
+body {
+  background: #a19595;
+
+}
+
+div#crypto-container {
+  background:white;
+  width: 80%;
+  margin: 0 auto 4px auto;
+  padding: 1em;
+  box-shadow: 1px 1px 0 lightgrey;
+  
+}
+
+span.left {
+  font-weight: bold;
+}
+
+span.right {
+  float:right;
+}
+
+#one{
+  font-family:   source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  monospace;
+  font-weight: bold;
+  font-size: 30px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+
+}
+
+span.left:hover{
+  background-color: rgba(70, 116, 80, 0.61);
+}
+span.right:hover{
+  background-color: rgba(81, 122, 199, 0.61);
+}
