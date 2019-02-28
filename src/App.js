@@ -48,10 +48,10 @@ class App extends Component {
     return (
       <div className="App" >
       <center id="one"> CRYPTO CURRENCIES</center>
-        {Object.keys(this.state.cryptos).map((key)=>(
-        <div id="crypto-container" >
+        {Object.keys(this.state.cryptos).map((key,i)=>(
+        <div id="crypto-container" key={i}>
           <span  className="left">{key}</span>
-          <span className="right"><NumberFormat value={this.state.cryptos[key].INR} displayType={'text'} decimalPrecision={2} thousandSeparator={true} prefix={'₹'} /></span>
+          <span className="right"><NumberFormat value={this.state.cryptos[key].INR} displayType={'text'} decimalprecision={2} thousandSeparator={true} prefix={'₹'} /></span>
         </div>
         ))}
       </div>
